@@ -1,26 +1,66 @@
-export default class menuPage {
-    init() {
-      const header = document.querySelector('.header');
-      const headerContent = document.createElement('div');
-      headerContent.classList.add('header-content');
-      const h1Header = document.createElement('h1');
-      h1Header.classList.add('about-header')
-      h1Header.textContent = 'Menu';
-      headerContent.appendChild(h1Header);
-      header.appendChild(headerContent);
-      const mainContent = document.querySelector('.main-content')
+const menuContent = document.createElement('div');
+const h1Content = document.createElement('h1');
+const content = document.createElement('div');
 
-      const menuContent = document.createElement('div');
-      menuContent.classList.add('menu-content');
-      const menuArticle = document.createElement('div');
-      menuArticle.classList.add('menu-article');
-      const h2Menu = document.createElement('h2');
-      const paraMenu = document.createElement('p');
-      
+menuContent.classList.add('menu-content');
+content.classList.add('content-menu');
 
+h1Content.textContent = 'Explore our menu!';
+const itemContent = [
+    {
+        img: '../src/cheesecake.jpg',
+        h2: 'Best cheesecake',
+        des: 'You will definitely love this dessert!'
+    },
+    {
+        img: '../src/made_dish.jpg',
+        h2: 'Made dish',
+        des: 'This dish has everything you could want!'
+    },
+    {
+        img: '../src/cheesecake.jpg',
+        h2: 'Best cheesecake',
+        des: 'You will definitely love this dessert!'
+    },
+    {
+        img: '../src/made_dish.jpg',
+        h2: 'Made dish',
+        des: 'This dish has everything you could want!'
+    },
+    {
+        img: '../src/cheesecake.jpg',
+        h2: 'Best cheesecake',
+        des: 'You will definitely love this dessert!'
+    },
+    {
+        img: '../src/made_dish.jpg',
+        h2: 'Best cheesecake',
+        des: 'You will definitely love this dessert!'
+    },
+    {
+        img: '../src/cheesecake.jpg',
+        h2: 'Best cheesecake',
+        des: 'You will definitely love this dessert!'
+    },
+    {
+        img: '../src/made_dish.jpg',
+        h2: 'Made dish',
+        des: 'This dish has everything you could want!'
+    },
+];
 
-      menuContent.appendChild(menuArticle);
-      mainContent.appendChild(menuContent);
-      }
-
+for (let i = 0; i < itemContent.length; i++) {
+    const item = document.createElement('div');
+    item.classList.add('item');
+    const itemImg = document.createElement('img');
+    const itemPara = document.createElement('p');
+    const itemh2 = document.createElement('h2');
+    itemImg.setAttribute('src', itemContent[i].img);
+    itemh2.textContent = itemContent[i].h2;
+    itemPara.textContent = itemContent[i].des;
+    item.append(itemImg, itemh2, itemPara);
+    content.append(item);
 }
+menuContent.append(h1Content, content);
+
+export { menuContent }
