@@ -176,7 +176,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuContent\": () => (/* binding */ menuContent)\n/* harmony export */ });\nconst menuContent = document.createElement('div');\nconst h1Content = document.createElement('h1');\nconst content = document.createElement('div');\n\nmenuContent.classList.add('menu-content');\ncontent.classList.add('content-menu');\n\nh1Content.textContent = 'Explore our menu!';\nconst itemContent = [\n    {\n        img: '../src/cheesecake.jpg',\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: '../src/made_dish.jpg',\n        h2: 'Made dish',\n        des: 'This dish has everything you could want!'\n    },\n    {\n        img: '../src/cheesecake.jpg',\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: '../src/made_dish.jpg',\n        h2: 'Made dish',\n        des: 'This dish has everything you could want!'\n    },\n    {\n        img: '../src/cheesecake.jpg',\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: '../src/made_dish.jpg',\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: '../src/cheesecake.jpg',\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: '../src/made_dish.jpg',\n        h2: 'Made dish',\n        des: 'This dish has everything you could want!'\n    },\n];\n\nfor (let i = 0; i < itemContent.length; i++) {\n    const item = document.createElement('div');\n    item.classList.add('item');\n    const itemImg = document.createElement('img');\n    const itemPara = document.createElement('p');\n    const itemh2 = document.createElement('h2');\n    itemImg.setAttribute('src', itemContent[i].img);\n    itemh2.textContent = itemContent[i].h2;\n    itemPara.textContent = itemContent[i].des;\n    item.append(itemImg, itemh2, itemPara);\n    content.append(item);\n}\nmenuContent.append(h1Content, content);\n\n\n\n\n//# sourceURL=webpack://restaurant-page-top-project/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"menuContent\": () => (/* binding */ menuContent)\n/* harmony export */ });\n/* harmony import */ var _src_cheesecake_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/cheesecake.jpg */ \"./src/cheesecake.jpg\");\n/* harmony import */ var _src_made_dish_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/made_dish.jpg */ \"./src/made_dish.jpg\");\n\n\n\nconst menuContent = document.createElement('div');\nconst h1Content = document.createElement('h1');\nconst content = document.createElement('div');\n\nmenuContent.classList.add('menu-content');\ncontent.classList.add('content-menu');\n\nh1Content.textContent = 'Explore our menu!';\nconst itemContent = [\n    {\n        img: _src_cheesecake_jpg__WEBPACK_IMPORTED_MODULE_0__,\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: _src_made_dish_jpg__WEBPACK_IMPORTED_MODULE_1__,\n        h2: 'Made dish',\n        des: 'This dish has everything you could want!'\n    },\n    {\n        img: _src_cheesecake_jpg__WEBPACK_IMPORTED_MODULE_0__,\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: _src_made_dish_jpg__WEBPACK_IMPORTED_MODULE_1__,\n        h2: 'Made dish',\n        des: 'This dish has everything you could want!'\n    },\n    {\n        img: _src_cheesecake_jpg__WEBPACK_IMPORTED_MODULE_0__,\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: _src_made_dish_jpg__WEBPACK_IMPORTED_MODULE_1__,\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: _src_cheesecake_jpg__WEBPACK_IMPORTED_MODULE_0__,\n        h2: 'Best cheesecake',\n        des: 'You will definitely love this dessert!'\n    },\n    {\n        img: _src_made_dish_jpg__WEBPACK_IMPORTED_MODULE_1__,\n        h2: 'Made dish',\n        des: 'This dish has everything you could want!'\n    },\n];\n\nfor (let i = 0; i < itemContent.length; i++) {\n    const item = document.createElement('div');\n    item.classList.add('item');\n    const itemImg = document.createElement('img');\n    const itemPara = document.createElement('p');\n    const itemh2 = document.createElement('h2');\n    itemImg.setAttribute('src', itemContent[i].img);\n    itemh2.textContent = itemContent[i].h2;\n    itemPara.textContent = itemContent[i].des;\n    item.append(itemImg, itemh2, itemPara);\n    content.append(item);\n}\nmenuContent.append(h1Content, content);\n\n\n\n\n//# sourceURL=webpack://restaurant-page-top-project/./src/menu.js?");
 
 /***/ }),
 
@@ -190,6 +190,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/cheesecake.jpg":
+/*!****************************!*\
+  !*** ./src/cheesecake.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f04a47edd3bb5957fb99.jpg\";\n\n//# sourceURL=webpack://restaurant-page-top-project/./src/cheesecake.jpg?");
+
+/***/ }),
+
 /***/ "./src/header.jpg":
 /*!************************!*\
   !*** ./src/header.jpg ***!
@@ -197,6 +207,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"9b9c8d2065dc66f7c743.jpg\";\n\n//# sourceURL=webpack://restaurant-page-top-project/./src/header.jpg?");
+
+/***/ }),
+
+/***/ "./src/made_dish.jpg":
+/*!***************************!*\
+  !*** ./src/made_dish.jpg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a0760429e53277839baf.jpg\";\n\n//# sourceURL=webpack://restaurant-page-top-project/./src/made_dish.jpg?");
 
 /***/ })
 
