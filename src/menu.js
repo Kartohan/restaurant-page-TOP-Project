@@ -1,3 +1,6 @@
+import imgCheese from '../src/cheesecake.jpg';
+import imgDish from '../src/made_dish.jpg';
+
 const menuContent = document.createElement('div');
 const h1Content = document.createElement('h1');
 const content = document.createElement('div');
@@ -8,42 +11,42 @@ content.classList.add('content-menu');
 h1Content.textContent = 'Explore our menu!';
 const itemContent = [
     {
-        img: '../src/cheesecake.jpg',
+        img: imgCheese,
         h2: 'Best cheesecake',
         des: 'You will definitely love this dessert!'
     },
     {
-        img: '../src/made_dish.jpg',
+        img: imgDish,
         h2: 'Made dish',
         des: 'This dish has everything you could want!'
     },
     {
-        img: '../src/cheesecake.jpg',
+        img: imgCheese,
         h2: 'Best cheesecake',
         des: 'You will definitely love this dessert!'
     },
     {
-        img: '../src/made_dish.jpg',
+        img: imgDish,
         h2: 'Made dish',
         des: 'This dish has everything you could want!'
     },
     {
-        img: '../src/cheesecake.jpg',
+        img: imgCheese,
         h2: 'Best cheesecake',
         des: 'You will definitely love this dessert!'
     },
     {
-        img: '../src/made_dish.jpg',
+        img: imgDish,
         h2: 'Best cheesecake',
         des: 'You will definitely love this dessert!'
     },
     {
-        img: '../src/cheesecake.jpg',
+        img: imgCheese,
         h2: 'Best cheesecake',
         des: 'You will definitely love this dessert!'
     },
     {
-        img: '../src/made_dish.jpg',
+        img: imgDish,
         h2: 'Made dish',
         des: 'This dish has everything you could want!'
     },
