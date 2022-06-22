@@ -4,8 +4,8 @@ This time I did almost no design. There are standard fonts, there are almost no 
 22.06.22 - Site works like as i expected. <br>
 
 Thanks for pictures: <br>
-[https://unsplash.com/photos/f6Wpz1QPFZI](Header Picture) - by [https://unsplash.com/@kmile_ch](Camille Brodard)<br>
-[https://unsplash.com/photos/Tl9sAzRsjoU](Cheese Picture) - by [https://unsplash.com/@beancurd](Choi sungwoo)<br>
-[https://unsplash.com/photos/MQyCrJVFG8U](Yummy Meal) - by [https://unsplash.com/@callmeed](Erik Dungan)<br>
+[Header Picture](https://unsplash.com/photos/f6Wpz1QPFZI) - by [Camille Brodard](https://unsplash.com/@kmile_ch)<br>
+[Cheese Picture](https://unsplash.com/photos/Tl9sAzRsjoU) - by [Choi sungwoo](https://unsplash.com/@beancurd)<br>
+[Yummy Meal](https://unsplash.com/photos/MQyCrJVFG8U) - by [Erik Dungan](https://unsplash.com/@callmeed)<br>
 
 Link - https://kartohan.github.io/restaurant-page-TOP-Project/
